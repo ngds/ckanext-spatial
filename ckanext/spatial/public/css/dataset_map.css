@@ -1,0 +1,36 @@
+/* Side bar */
+.module-narrow #dataset-map-container{
+  height: 200px;
+}
+
+/* Primary content */
+
+.dataset-map-section-20x {
+  padding: 0 25px;
+  margin: 20px 0;
+}
+
+.dataset-map #dataset-map-container{
+  height: 250px;
+}
+
+#dataset-map-attribution{
+  font-size: x-small;
+}
+
+.module-narrow #dataset-map-attribution{
+  margin-left: 3px;
+}
+.leaflet-draw-label-single {
+  display: none;
+}
+.leaflet-draw-label-subtext {
+  display: none;
+}
+.leaflet-control-draw-rectangle {
+  background-image: url("../img/pencil.png");
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
